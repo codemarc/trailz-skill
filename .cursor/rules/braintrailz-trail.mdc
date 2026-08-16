@@ -1,0 +1,23 @@
+---
+alwaysApply: true
+---
+# Keep the Braintrailz trail current
+
+`trailz/references/braintrailz.md` is the trail map for this skill — why
+decisions were made, not a changelog or session transcript.
+
+When building or changing this project:
+
+- After a durable design choice (trigger words, save format, fallback
+  behavior, packaging), add or update a short section in `braintrailz.md`
+- Capture the *why* and the test for the decision; skip back-and-forth and
+  housekeeping detail
+- Match the existing voice: trail markers, reusable patterns, no fence
+- If `trailz/` source changed in a way that should ship, rebuild
+  `trailz.skill` (zip of `trailz/`)
+
+This project is held to its own standard. Any edit that makes a file longer
+without making it more useful is the wrong edit.
+
+Do not dump full conversations into the trail. Prefer one tight section per
+decision.
